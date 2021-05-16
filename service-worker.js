@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://leektoken.oss-cn-beijing.aliyuncs.com/leektoken/precache-manifest.b74964c0b701bfc242c62b6f12a86951.js"
+  "https://leektoken.oss-cn-beijing.aliyuncs.com/leektoken/precache-manifest.1a8d185af21fc372f1a98c089e324a11.js"
 );
 
 self.addEventListener('message', (event) => {
