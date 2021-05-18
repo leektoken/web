@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://leektoken.oss-cn-beijing.aliyuncs.com/leektoken/precache-manifest.52b7dba57e272950f4062bc100b20e6e.js"
+  "https://leektoken.oss-cn-beijing.aliyuncs.com/leektoken/precache-manifest.0209ef8c2a7e2fb75a2c76653ca4a684.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -35,5 +35,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("https://leektoken.oss-cn-beijing.aliyuncs.com/leektoken/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
+  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
